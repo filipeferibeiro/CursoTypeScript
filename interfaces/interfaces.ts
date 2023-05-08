@@ -88,9 +88,9 @@ class RealABC implements ABC {
 	c(): void {}
 }
 
-function teste(b: B) {}
+// function teste(b: B) {}
 
-teste(new RealABC());
+// teste(new RealABC());
 
 abstract class AbstrataABD implements A, B {
 	a(): void {}
